@@ -1,0 +1,18 @@
+---
+title: "First Repo"
+author: "Kongkh"
+date: "2023-02-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+My "first" version controlled project in Rstudio
+
+Lets create a test plot
+
+```{r, test-plot}
+plot(cars)
+```
